@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl-pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <meta name="keywords" content="restauracja, koszalin, mielno, kołobrzeg, słupsk, bistro, przyjęcia, obiady, jedzenie, domowa kuchnia, obiady abonamentowe, catering"/>
+    <title>Bar Bosmański - Bistro & Pieczywo Rzemieślnicze</title>
+    <style>
+        body {
+            background-color: #f6f7f1;
+        }
+
+        #main {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        a {
+            padding-left: 50%;
+            padding-right: 50%;
+            top: 0;
+            left: 0;
+            display: block;
+            position: relative;
+        }
+
+        #facebook {
+            padding-top: 25%;
+            padding-bottom: 25%;
+        }
+
+        #map {
+            padding-top: 13%;
+            padding-bottom: 12%;
+        }
+
+        @media (max-width: 799px) {
+            #facebook {
+                padding-top: 60%;
+                padding-bottom: 58%;
+            }
+
+            #map {
+                padding-top: 30%;
+                padding-bottom: 30%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <picture>
+        <source media="(max-width: 799px)" srcset="barmobile.jpg">
+        <source media="(min-width: 800px)" srcset="bar.jpg">
+        <img src="bar.jpg" id="main" />
+      </picture>
+    <a href="https://facebook.com" id="facebook"></a>
+    <a href="https://maps.google.com" id="map"></a>
+</body>
+
+</html>
